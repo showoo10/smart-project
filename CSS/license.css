@@ -1,0 +1,54 @@
+body {
+  background-image: url(../images/corridor.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section .inner {
+  width: 800px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.kca {
+  margin-top: 200px;
+}
+.kca .inner > h1 {
+  font-weight: 800;
+  font-size: 20px;
+}
+.kca .inner > table {
+  width: 800px;
+  border: 1px solid;
+}
+.kca .inner > table tr th {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.kca .inner > table,
+.kca .inner > table tr,
+.kca .inner > table tr th,
+.kca .inner > table tr td {
+  border: 1px solid black;
+}
+
+.qnet .inner > h1 {
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.qnet .inner > table {
+  width: 700px;
+}
+.qnet .inner > table tr th {
+  font-weight: 600;
+  font-size: 20px;
+}
+.qnet .inner > table,
+.qnet .inner > table tr,
+.qnet .inner > table tr th,
+.qnet .inner > table tr td {
+  border: 1px solid black;
+}

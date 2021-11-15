@@ -1,0 +1,54 @@
+.schedule {
+  margin-top: 100px;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.schedule .swiper-container {
+  width: calc(910px * 3 + 20px);
+  height: 700px;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  margin-left: calc((910px * 3 + 20px) / -2);
+}
+.schedule .swiper-slide {
+  opacity: 0;
+  transition: opacity 1s;
+  position: relative;
+}
+.schedule .swiper-slide-active {
+  opacity: 1;
+}
+.schedule .swiper-slide p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+}
+.schedule .swiper-prev,
+.schedule .swiper-next {
+  width: 42px;
+  height: 42px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  position: absolute;
+  top: 300px;
+  z-index: 1;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-weight: 800;
+}
+.schedule .swiper-prev {
+  left: 50%;
+  margin-left: -700px;
+}
+.schedule .swiper-next {
+  right: 50%;
+  margin-right: -700px;
+}

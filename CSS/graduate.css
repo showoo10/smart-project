@@ -1,0 +1,31 @@
+.graduate {
+  margin-top: 120px;
+  background-image: url(../images/view.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+.graduate .inner > p {
+  font-size: 25px;
+  font-weight: 800;
+  position: absolute;
+  left: 400px;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.graduate .inner .g18,
+.graduate .inner .g19,
+.graduate .inner .g20,
+.graduate .inner .g20-2 {
+  display: flex;
+}
+.graduate .inner .g18 > a img,
+.graduate .inner .g19 > a img,
+.graduate .inner .g20 > a img,
+.graduate .inner .g20-2 > a img {
+  width: 600px;
+  height: 500px;
+  margin: 50px 10px 0 0px;
+}

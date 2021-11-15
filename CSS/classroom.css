@@ -1,0 +1,67 @@
+.class {
+  margin-top: 100px;
+}
+.class .inner {
+  width: 100%;
+}
+.class .inner > div {
+  display: flex;
+  height: 520px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  position: relative;
+}
+.class .inner > div .class__img {
+  display: flex;
+  position: absolute;
+  top: 65px;
+  left: 100px;
+}
+.class .inner > div .class__img img {
+  width: 400px;
+  height: 400px;
+  cursor: pointer;
+}
+.class .inner > div .class__info {
+  position: absolute;
+  top: 65px;
+  left: 600px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.class .inner > div .class__info h4 {
+  font-weight: 800;
+  font-size: 35px;
+}
+.class .inner > div .class__info p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.class .inner .c301 {
+  background-image: url(../images/c301.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.class .inner .c306 {
+  background-image: url(../images/c306.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.class .inner .c311 {
+  background-image: url(../images/c311.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.class .inner .c319 {
+  background-image: url(../images/c319.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
